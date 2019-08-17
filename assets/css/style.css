@@ -1,0 +1,70 @@
+body {
+    background-image: url('../images/crystalcave.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner{
+    font-size: 42px;
+    font-family: 'helvetica';
+    text-align: center; 
+    color:white;
+    background-color: purple;
+    font-weight: bold;
+}
+
+#instructions{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(73, 70, 65);
+    opacity: .8;
+}
+
+.crystal{
+    width: 100px;
+    height:100px;
+    margin: 5px;
+}
+
+#random-number-output{
+    color: white;
+    background-color: rgb(73, 70, 65);
+    font-size: 36px;
+    opacity: .8;
+    font-family: 'Helvetica', cursive;
+}
+
+#wins-output{
+    color: white;
+    background-color: rgb(73, 70, 65);
+    font-size: 18px;
+    opacity: .8;
+    font-family: 'helvetica', cursive;
+}
+
+#losses-output{
+    color: white;
+    background-color: rgb(73, 70, 65);
+    font-size: 18px;
+    opacity: .8;
+    font-family: 'helvetica', cursive;
+}
+
+#message{
+    color: white;
+    background-color: rgb(73, 70, 65);
+    font-size: 22px;
+    opacity: .8;
+    font-family: 'helvetica', cursive;
+}
+
+#total-score{
+    color: white;
+    background-color: rgb(73, 70, 65);
+    font-size: 32px;
+    opacity: .8;
+    font-family: 'helvetica', cursive;
+}
